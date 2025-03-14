@@ -1,0 +1,168 @@
+::before*
+::after*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:hsl(148, 38%, 91%);
+}
+
+h1{
+    color:hsl(187, 24%, 22%);
+    font-size: xx-large;
+}
+
+.container{
+    background-color:  hsl(0, 0%, 100%);
+    width:34rem;
+    height:46rem;
+    border-radius:1rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding:45px;
+    margin-top:34px;
+    margin-bottom:45px;
+    display:flexbox;
+    font-family:monospace;
+}
+#firstname{
+    border-radius:7px;
+    width:25rem;
+    height:2.4rem;
+    margin-bottom: 1rem; 
+    /* margin-top:1.0rem; */
+    /* border-color:hsl(169, 82%, 27%); */
+}
+
+#lastname{
+    border-radius:7px;
+    width:25rem;
+    height:2.4rem;
+    margin-bottom: 1rem;
+    margin-top:1.0rem; 
+    border-color:hsl(169, 82%, 27%);  
+    /* margin-left: 40rem; */
+}
+ /* .identity3{
+    float:right
+}  */
+/* .identity #lastname{
+  margin-left:24rem;
+}
+.identity .lastname{
+    margin-left:24rem;
+} */
+
+#firstname:hover{
+    border-color: hsl(186, 15%, 59%);
+}
+#lastname:hover{
+    border-color: hsl(186, 15%, 59%);
+}
+.identity #message{
+    font-size:1.2rem;
+    border-radius:7px;
+    width:33rem;
+    height:4rem;
+    margin-bottom: 1rem;
+    border-color:hsl(169, 82%, 27%); 
+}
+#m1{
+    font-size:1.4rem;
+    margin-left:none;
+}
+#check{
+    font-size:1.1rem;
+}
+#email{
+    border-radius:7px;
+    width:20rem;
+    height:3rem;
+    margin-bottom: 1rem;
+    border-color:hsl(169, 82%, 27%);   
+}
+#email :hover{
+    border-color: hsl(186, 15%, 59%); 
+}
+
+#query2{
+    margin-left:7rem;
+    /* justify-items: left;
+    align-items:flex-start;  */
+}
+
+/* #query1{
+
+} */
+
+/* .option2{
+    border:1px solid hsl(169, 82%, 27%) ;
+    border-radius: 7px;
+    width:10rem;
+    height:3rem;
+    padding:5px;
+} */
+#q1{
+margin-top: 2rem;
+margin-bottom:3rem;
+font-size: 1.5rem;
+}
+#check label{
+    font-size: 25px;
+}
+#query1 label{
+    font-size: 1.4rem;
+}
+#query2 label{
+    font-size: 1.4rem;
+}
+
+button{
+border-radius: 7px;
+width:34rem;
+height: 3rem;
+font-size:1.2rem;
+background-color:hsl(169, 82%, 27%);
+border:none;
+color:white;
+margin-top:25px;
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
+button a:focus{
+    background-color:hsl(169, 82%, 27%) ;
+}
+.identity label{
+    font-size:1.2rem;
+    margin-bottom: 1.4rem;
+    margin-top:1.4rem;
+}
+
+.identity #email{
+    margin-top:1.0rem;
+    width:74%;
+    height: 3.3rem;
+}
+
+@media(max-width: 800px){
+    .container{
+        display: flex-box;
+    }
+    button{
+        display: flexbox;
+            }
+};
+
+@media(max-width: 480px){
+    .conatiner{
+        display:flex-box;
+    }
+    button{
+display: flexbox;
+    }
+}

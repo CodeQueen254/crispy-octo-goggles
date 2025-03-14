@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | Contact form</title>
+  <script type="text/javascript" src="index.js"></script> 
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container" id="" >
+  <form id="form" action="/"></form>
+  <h1>Contact Us</h1>
+
+<div class="identity">
+  <label for="firstname">First Name*</label> <br>
+      <input id="firstname" name="firstname" placeholder=" Please enter firstame" type="text"> <br>
+      <!-- This field is required -->
+<div class="error"></div>
+
+  <!-- <div class="identity"> -->
+    <!-- This field is required -->
+  <!-- </div> -->
+</div>
+<div class="identity">
+ <label for="lastname"> Last Name*</label><br>
+      <input id="lastname" placeholder=" Please enter lastname" type="text" > 
+</div><br>
+ 
+ <div class="identity">
+  <label for="email">Email Address*</label><br>
+  <input id="email"  placeholder=" Please enter a valid email address"  name="firstname" type="text">
+<!-- This field is required  -->
+ </div>
+
+ <label for="query" id="q1">Query Type</label><br><br>
+<div class="identity">
+<div><input id="query1" name="firstname" value="General Enquiry" type="radio"><label>General Enquiry</label>
+  <input id="query2" name="firstname" value="Support Request" type="radio"><label>Support Request</label></div> 
+<!-- <div class="option2"><input id="query2" name="firstname" value="Support Request" type="radio">Support Request</div>  -->
+ <!-- Please select a query type -->
+ </div><br><br>
+ <!-- <br>This field is required   -->
+ <div class="identity">
+    <label id="m1">Message * </label><br>
+    <input type="text" name="firstname" id="message">
+  </div>
+  <div class="identity"> 
+    <input type="checkbox" name="firstname" value="I consent to being contacted by the team" id="check">
+     <label>I consent to being contacted by the team</label></div><br>
+ <!-- <input value=" I consent to being contacted by the team" type="item-check"> -->
+
+ <button type="submit" id="submit"><a href="#">Submit</a></button><br> 
+ <!-- Message Sent!
+ Thanks for completing the form. We'll be in touch soon!
+  To submit this form, please consent to being contacted 
+
+   -->
+</div> 
+  
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
